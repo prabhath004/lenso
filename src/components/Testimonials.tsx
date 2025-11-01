@@ -32,7 +32,7 @@ const Testimonials = () => {
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Loved by{" "}
-            <span className="gradient-secondary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300 bg-clip-text text-transparent">
               creators
             </span>
           </h2>

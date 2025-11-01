@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProofBadges from "@/components/ProofBadges";
 import Features from "@/components/Features";
-import DemoShowcase from "@/components/DemoShowcase";
 import WhyItMatters from "@/components/WhyItMatters";
 import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
@@ -15,7 +14,6 @@ const Index = () => {
       <Hero />
       <ProofBadges />
       <Features />
-      <DemoShowcase />
       <WhyItMatters />
       <Testimonials />
       <Pricing />
