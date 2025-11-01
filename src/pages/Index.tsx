@@ -1,10 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProofBadges from "@/components/ProofBadges";
+import Problem from "@/components/Problem";
 import Features from "@/components/Features";
-import WhyItMatters from "@/components/WhyItMatters";
-import Testimonials from "@/components/Testimonials";
-import Pricing from "@/components/Pricing";
+import HowItWorks from "@/components/HowItWorks";
+import FounderNote from "@/components/FounderNote";
+import Waitlist from "@/components/Waitlist";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,10 +14,16 @@ const Index = () => {
       <Navbar />
       <Hero />
       <ProofBadges />
+      {/* Problem Section - Why filming alone is painful */}
+      <Problem />
+      {/* Features Section - What it does */}
       <Features />
-      <WhyItMatters />
-      <Testimonials />
-      <Pricing />
+      {/* How It Works Section - 3-step process */}
+      <HowItWorks />
+      {/* Founder Note Section - Personal motivation */}
+      <FounderNote />
+      {/* Waitlist Form - Email capture */}
+      <Waitlist />
       <Footer />
     </div>
   );

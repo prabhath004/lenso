@@ -11,7 +11,7 @@ const Navbar1 = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   // Lenso navigation items
-  const navItems = ["Features", "Demo", "Pricing"]
+  const navItems = ["Features", "How It Works", "Demo"]
 
   return (
     <div className="flex justify-center w-full py-6 px-4 fixed top-0 left-0 right-0 z-50">
@@ -41,7 +41,7 @@ const Navbar1 = () => {
               whileHover={{ scale: 1.05 }}
             >
               <a 
-                href={`#${item.toLowerCase()}`} 
+                href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} 
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors font-medium"
               >
                 {item}
@@ -62,7 +62,7 @@ const Navbar1 = () => {
             href="#waitlist"
             className="inline-flex items-center justify-center px-5 py-2 text-sm text-foreground bg-primary rounded-full hover:bg-primary/90 transition-colors"
           >
-            Get Early Access
+            Join the Waitlist
           </a>
         </motion.div>
 
@@ -106,7 +106,7 @@ const Navbar1 = () => {
                   exit={{ opacity: 0, x: 20 }}
                 >
                   <a 
-                    href={`#${item.toLowerCase()}`} 
+                    href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} 
                     className="text-base text-foreground font-medium" 
                     onClick={toggleMenu}
                   >
@@ -127,7 +127,7 @@ const Navbar1 = () => {
                   className="inline-flex items-center justify-center w-full px-5 py-3 text-base text-foreground bg-primary rounded-full hover:bg-primary/90 transition-colors"
                   onClick={toggleMenu}
                 >
-                  Get Early Access
+                  Join the Waitlist
                 </a>
               </motion.div>
             </div>
