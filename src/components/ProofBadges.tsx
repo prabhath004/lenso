@@ -3,16 +3,17 @@ import { useRef } from "react";
 
 const ProofBadges = () => {
   const targetGroups = [
-    "YouTubers",
-    "TikTok Creators",
-    "Podcasters",
+    "Knowledge Creators",
     "Coaches",
-    "Filmmakers",
-    "Solo Entrepreneurs",
+    "Founders",
     "Course Creators",
+    "TikTok Creators",
     "Reels Creators",
-    "Streamers",
-    "Short-Form Creators",
+    "YouTube Shorts",
+    "Realtors",
+    "Fitness Trainers",
+    "Service Pros",
+    "Solo Entrepreneurs",
     "Online Educators",
   ];
 

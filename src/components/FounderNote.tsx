@@ -12,15 +12,24 @@ const FounderNote = () => {
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-            I've filmed alone for years. Tripods don't give direction. Editing takes forever.
-          </p>
-          <p className="text-xl md:text-2xl leading-relaxed">
-            Building Lenso to make solo filmmaking effortless — so creators can focus on what they're saying, not how they're filming it.
-          </p>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Why now</h3>
+              <p className="text-xl md:text-2xl leading-relaxed">
+                Most creators film alone. The problem isn't gear. It's not having a crew. Phones are amazing now. AI is good enough to help in real time. The timing just makes sense. We're building a camera that actually helps you, not just records you.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Where we are</h3>
+              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+                We're pre-seed, building our first version. Teleprompter, voice control, auto editing, captions, vertical export. If you film yourself regularly, we'd love to hear about your workflow and what you need.
+              </p>
+            </div>
+          </div>
           <div className="pt-6">
-            <p className="text-lg font-medium">— Prabhath</p>
-            <p className="text-sm text-muted-foreground">Founder, Lenso</p>
+            <p className="text-lg font-medium">Prabhath</p>
+            <p className="text-sm text-muted-foreground">Co-founder, Lenso</p>
           </div>
         </motion.div>
       </div>

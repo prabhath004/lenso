@@ -15,36 +15,14 @@ const footerLinks = [
     title: "Product",
     links: [
       { href: "#features", label: "Features" },
-      { href: "#demo", label: "Demo" },
-      { href: "#pricing", label: "Pricing" },
+      { href: "#how-it-works", label: "How It Works" },
       { href: "#waitlist", label: "Join Waitlist" },
     ],
   },
   {
     title: "Company",
     links: [
-      { href: "#", label: "About" },
-      { href: "#", label: "Blog" },
-      { href: "#", label: "Careers" },
-      { href: "#", label: "Press" },
-    ],
-  },
-  {
-    title: "Support",
-    links: [
-      { href: "#", label: "Help Center" },
-      { href: "#", label: "Getting Started" },
-      { href: "#", label: "FAQs" },
-      { href: "#", label: "Contact Us" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { href: "#", label: "Terms & Conditions" },
-      { href: "#", label: "Privacy Policy" },
-      { href: "#", label: "Cookie Policy" },
-      { href: "#", label: "Trust Center" },
+      { href: "#waitlist", label: "Contact" },
     ],
   },
 ];

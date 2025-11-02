@@ -28,9 +28,9 @@ const Waitlist = () => {
             <div className="w-16 h-16 mx-auto rounded-full bg-primary/20 flex items-center justify-center">
               <div className="w-8 h-8 rounded-full bg-primary" />
             </div>
-            <h3 className="text-2xl md:text-3xl font-bold">You're on the list</h3>
+            <h3 className="text-2xl md:text-3xl font-bold">You're in</h3>
             <p className="text-muted-foreground">
-              We'll reach out soon to learn more about your workflow.
+              We'll reach out soon to learn about your workflow and share early access.
             </p>
           </motion.div>
         </div>
@@ -50,13 +50,16 @@ const Waitlist = () => {
         >
           <div className="space-y-4">
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold">
-              Join the{" "}
+              Help us{" "}
               <span className="bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300 bg-clip-text text-transparent">
-                waitlist
+                build it right
               </span>
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground">
-              🎤 Currently onboarding our first creators
+              We're pre-seed, building V1. If you're a solo creator who films regularly, like coaches, founders, course creators, realtors, or fitness trainers, we'd love to learn about your workflow.
+            </p>
+            <p className="text-base text-foreground font-medium">
+              Early access. Shape the product. Ship way more content.
             </p>
           </div>
 
@@ -91,7 +94,7 @@ const Waitlist = () => {
           </form>
 
           <p className="text-sm text-muted-foreground">
-            We'll email you to learn about your workflow and filming needs.
+            We'll email you to schedule a quick workflow call. Your input shapes Lenso.
           </p>
         </motion.div>
       </div>

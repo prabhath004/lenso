@@ -63,35 +63,35 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
   const stepsData = [
     {
       icon: <FileText className="h-6 w-6" />,
-      title: "Prep",
+      title: "Plan",
       description:
-        "Write or speak your idea, and Lenso creates a script for you to read naturally.",
+        "Quick script: write 1–3 bullets or ask AI to draft a 30-second hook. Teleprompter loads instantly.",
       benefits: [
-        "AI script generation from your ideas",
-        "Built-in teleprompter for natural delivery",
-        "Smart topic suggestions and structure",
+        "AI writes scripts: 'Write a 30s hook about X'",
+        "Or add your own talking points",
+        "Teleprompter near lens for natural eyeline",
       ],
     },
     {
       icon: <Video className="h-6 w-6" />,
-      title: "Record",
+      title: "Shoot",
       description:
-        "Hands-free recording with real-time framing guidance and voice controls.",
+        "Say 'Lenso, start' and perform. Get gentle nudges for framing. If you stumble, keep going. No retakes needed.",
       benefits: [
-        "Voice-controlled start and stop",
-        "Live AI framing and positioning tips",
-        "Real-time teleprompter scrolling",
+        "Voice commands: 'Lenso, start' and 'Cut'",
+        "Real-time framing nudges for headroom and centering",
+        "Stay in performance mode, hands free",
       ],
     },
     {
       icon: <Scissors className="h-6 w-6" />,
-      title: "Finish",
+      title: "Clean & Ship",
       description:
-        "Automatic trimming, caption generation, and export in the perfect format.",
+        "Say 'Cut'. Within seconds, get a clean clip with trimmed silence, removed command words, captions, and vertical export.",
       benefits: [
-        "Auto-trim silence and mistakes",
-        "Live captions styled for social media",
-        "Ready-to-post vertical clips",
+        "Auto-trims silence and removes 'start'/'cut'",
+        "Captions auto-generated, styled for platforms",
+        "Vertical export with smart face centering",
       ],
     },
   ];
@@ -111,8 +111,8 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
               works
             </span>
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            A simple 3-step process to create professional content solo
+          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+            Plan, shoot, clean, ship. From "Cut" to ready-to-post clip in under 10 seconds. Remove friction. Increase output. Build the habit.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ const Navbar1 = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   // Lenso navigation items
-  const navItems = ["Features", "How It Works", "Demo"]
+  const navItems = ["Features", "How It Works"]
 
   return (
     <div className="flex justify-center w-full py-6 px-4 fixed top-0 left-0 right-0 z-50">

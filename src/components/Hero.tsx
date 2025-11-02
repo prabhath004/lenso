@@ -6,7 +6,7 @@ const Hero = () => {
       badge="AI Filming Assistant"
       title1="Shoot like you have a"
       title2="full film crew"
-      description="Lenso is an AI director that scripts, films, trims, and captions your videos — hands-free."
+      description="A tiny crew in your phone. Director guides you, camera op keeps you framed, editor cleans the clip. Hands free. No timeline. Ready to post in seconds."
     />
   );
 };
